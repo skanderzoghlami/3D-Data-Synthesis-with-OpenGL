@@ -4,7 +4,7 @@ bin/*.pdb
 build
 *.make
 *.cbp
-
+extern
 *.workspace
 
 Makefile
