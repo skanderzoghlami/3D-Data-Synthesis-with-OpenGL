@@ -19,10 +19,10 @@ void main( )
 #ifdef FRAGMENT_SHADER
 // doit calculer la couleur du fragment
 
+uniform vec3 color;
+
 void main( )
 {
-        vec3 color;
-        color = vec3(1.0,0.5,0);
         gl_FragColor = vec4(color,1);
 }
 #endif

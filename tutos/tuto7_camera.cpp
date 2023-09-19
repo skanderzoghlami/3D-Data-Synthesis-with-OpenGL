@@ -152,6 +152,7 @@ public:
         }
 
         // Part I added for coloring the robot
+
         m_program = read_program("shaders/cartoon.glsl");
         program_print_errors(m_program);
         //
@@ -233,6 +234,7 @@ protected:
     Buffers m_robot;
     //
     GLuint m_program;
+    std::vector<TriangleGroup> m_groups;
 };
 
 

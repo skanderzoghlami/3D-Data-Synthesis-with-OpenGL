@@ -93,7 +93,9 @@ end
 
  -- description des projets		 
 projects = {
-    "base"
+    "base",
+    "tp",
+    "tp1_texture"
 }
 
 for i, name in ipairs(projects) do
