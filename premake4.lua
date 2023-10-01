@@ -95,7 +95,11 @@ end
 projects = {
     "base",
     "tp",
-    "tp1_texture"
+    "tp1_texture",
+    "coloration_v2",
+    "textures",
+    "real_scene",
+    "frustum"
 }
 
 for i, name in ipairs(projects) do

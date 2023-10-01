@@ -6,5 +6,7 @@ build
 *.cbp
 extern
 *.workspace
+bistro
+bistro-small
 
 Makefile
