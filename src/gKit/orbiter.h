@@ -92,7 +92,7 @@ public:
     //! renvoie le rayon de la scene.
     float radius() const { return m_radius;  }
     
-protected:
+public:
     Point m_center;
     vec2 m_position;
     vec2 m_rotation;

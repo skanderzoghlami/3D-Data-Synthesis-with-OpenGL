@@ -7,7 +7,7 @@ layout(location= 1) in vec2 texcoord;
 layout(location= 2) in vec3 normal_direction;
 
 uniform mat4 mvpMatrix;
-uniform mat4 mvMatrix;
+// uniform mat4 mvMatrix;
 
 out vec2 vertex_texcoord;
 out vec3 dir_norml ;
@@ -24,11 +24,10 @@ void main( )
 
 #ifdef FRAGMENT_SHADER
 
-
 in vec2 vertex_texcoord;
 in vec3 dir_norml;
 
-uniform vec4 material_color ;
+// uniform vec4 material_color ;
 uniform sampler2D material_texture;
 
 out vec4 fragment_color;
